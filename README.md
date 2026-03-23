@@ -109,3 +109,8 @@ Paper: "Direct Preference Optimization: Your Language Model is Secretly a Reward
 ### Minimality verdict
 - still not perfectly minimal
 - but more bounded and less framework-like than many agent repos
+
+
+# Decesion making
+- [dcmpc] (https://github.com/aidanscannell/dcmpc)
+- 

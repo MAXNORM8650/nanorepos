@@ -3,7 +3,7 @@
 Best minimal-ish repos to collect INCLUDES THESE AREAs
 
 	1.	LLM post-training / alignment
-	2.	Evaluation / benchmarking / model editing
+	2.	Evaluation / benchmarking
 	3.	Efficient training & inference
 	4.	Agents (method papers, not product frameworks)
 	5.	RL for reasoning / decision-making
@@ -33,3 +33,24 @@ Best minimal-ish repos to collect INCLUDES THESE AREAs
 - **Best for:** pure repo minimality
 ## 4) [Direct Preference Optimization](https://github.com/eric-mitchell/direct-preference-optimization)
 Paper: "Direct Preference Optimization: Your Language Model is Secretly a Reward Model" — ICLR 2024 (Spotlight)
+
+
+# Efficient training & inference — repos to collect
+
+## 1) [microsoft/MInference](https://github.com/microsoft/MInference)
+- Area: Efficient inference / long-context acceleration
+- Venue signal: NeurIPS 2024 Spotlight, later extended at ICLR 2025 and ICML 2025
+- Why keep: strongest anchor repo, fairly famous, very important problem
+- Caveat: not minimalistic enough to be your pure minimal pick
+
+## 2) [shadowpa0327/Palu](https://github.com/shadowpa0327/Palu)
+- Area: Efficient inference / KV-cache compression
+- Venue signal: ICLR 2025
+- Why keep: best balance of minimal + important in this area
+- Best for: your “minimal runnable research repo” criterion
+
+## 3) [junzhang-zj/LoRAM](https://github.com/junzhang-zj/LoRAM)
+- Area: Efficient training / memory-efficient fine-tuning
+- Venue signal: ICLR 2025 Poster
+- Why keep: strong recent training-side repo, more compact than framework-style PEFT repos
+- Best for: efficient training bucket

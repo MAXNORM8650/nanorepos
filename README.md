@@ -152,3 +152,26 @@ Paper: "Direct Preference Optimization: Your Language Model is Secretly a Reward
 - **Why keep:** best **benchmark/eval repo** for this field
 - **Why it matters:** the official repo says EMMA contains generation and evaluation code for a benchmark with **2,788 problems** across **mathematics, physics, chemistry, and coding**, and the repo is labeled as an **ICML 2025 Oral**. It is more of an evaluation repo than a training repo, but it is very clean and directly about multimodal reasoning.  [oai_citation:2‡GitHub](https://github.com/EMMA-Bench/EMMA)
 - **Best for:** evaluating multimodal reasoning ability
+
+# Generative vision / video / 3D — repos to collect
+
+## 1) [3DTopia / 3DTopia-XL](https://github.com/3DTopia/3DTopia-XL)
+- **Area:** 3D asset generation
+- **Venue:** **CVPR 2025 Highlight**
+- **Why keep:** best **recent 3D anchor repo**
+- **Why it matters:** high-quality PBR asset generation, strong visibility, and clear top-conference signal
+- **Best for:** recent, important 3D generation
+
+## 2) [knightyxp / VideoGrain](https://github.com/knightyxp/VideoGrain)
+- **Area:** video generation / editing
+- **Venue:** **ICLR 2025**
+- **Why keep:** best **more minimal video repo**
+- **Why it matters:** official implementation, smaller repo surface than most video-generation stacks
+- **Best for:** compact method repo for video editing/generation
+
+## 3) [NIRVANALAN / GaussianAnything](https://github.com/NIRVANALAN/GaussianAnything)
+- **Area:** native 3D diffusion / editable 3D generation
+- **Venue:** **ICLR 2025**
+- **Why keep:** strong **3D generative method repo**
+- **Why it matters:** official repo for editable surfel 3D Gaussian generation
+- **Best for:** newer 3D diffusion-style generation

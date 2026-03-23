@@ -130,3 +130,25 @@ Paper: "Direct Preference Optimization: Your Language Model is Secretly a Reward
 - Project: open reasoning-RL
 - Why keep: strongest famous anchor repo in open reasoning
 - Best for: reasoning-RL training
+# Multimodal reasoning
+
+## 1) [dongyh20/Insight-V](https://github.com/dongyh20/Insight-V)
+- **Paper:** *Insight-V: Exploring Long-Chain Visual Reasoning with Multimodal Large Language Models*
+- **Venue:** **CVPR 2025 Highlight**
+- **Why keep:** best **recent anchor repo** for multimodal reasoning
+- **Why it matters:** the repo describes a scalable long-chain visual-reasoning data pipeline, a multi-agent reasoning/summarization design, and a two-stage training pipeline; the repo notes it was accepted to CVPR 2025 and selected as a Highlight. It also has about **238 GitHub stars**.  [oai_citation:0‡GitHub](https://github.com/dongyh20/Insight-V)
+- **Best for:** long-chain visual reasoning
+
+## 2) [zjunlp/DeCo](https://github.com/zjunlp/DeCo)
+- **Paper:** *MLLM can see? Dynamic Correction Decoding for Hallucination Mitigation*
+- **Venue:** **ICLR 2025 Poster**
+- **Why keep:** best **minimal method repo** in this area
+- **Why it matters:** DeCo is a model-agnostic decoding method for reducing hallucinations in MLLMs, and the ICLR poster page says it can be incorporated with classic decoding strategies across different MLLMs. The repo is relatively compact compared with larger training stacks.  [oai_citation:1‡ICLR](https://iclr.cc/virtual/2025/poster/30978?utm_source=chatgpt.com)
+- **Best for:** compact decoding-time multimodal reasoning improvement
+
+## 3) [EMMA-Bench/EMMA](https://github.com/EMMA-Bench/EMMA)
+- **Paper:** *Can MLLMs Reason in Multimodality? EMMA: An Enhanced MultiModal ReAsoning Benchmark*
+- **Venue:** **ICML 2025 Oral**
+- **Why keep:** best **benchmark/eval repo** for this field
+- **Why it matters:** the official repo says EMMA contains generation and evaluation code for a benchmark with **2,788 problems** across **mathematics, physics, chemistry, and coding**, and the repo is labeled as an **ICML 2025 Oral**. It is more of an evaluation repo than a training repo, but it is very clean and directly about multimodal reasoning.  [oai_citation:2‡GitHub](https://github.com/EMMA-Bench/EMMA)
+- **Best for:** evaluating multimodal reasoning ability

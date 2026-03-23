@@ -31,3 +31,5 @@ Best minimal-ish repos to collect INCLUDES THESE AREAs
 - **Why keep:** cleanest repo layout among the three
 - **Repo shape:** `README.md`, `requirements.txt`, `train.py`, `trainers.py`, `utils.py`, `preference_datasets.py`
 - **Best for:** pure repo minimality
+## 4) [Direct Preference Optimization](https://github.com/eric-mitchell/direct-preference-optimization)
+Paper: "Direct Preference Optimization: Your Language Model is Secretly a Reward Model" — ICLR 2024 (Spotlight)

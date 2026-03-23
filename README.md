@@ -113,4 +113,20 @@ Paper: "Direct Preference Optimization: Your Language Model is Secretly a Reward
 
 # Decesion making
 - [dcmpc] (https://github.com/aidanscannell/dcmpc)
-- 
+
+# Reasoning LLM
+
+## 1) [GAIR-NLP/LIMO](https://github.com/GAIR-NLP/LIMO)
+- Conference: COLM 2025
+- Why keep: recent, important, fairly visible, and the closest to a minimal reasoning repo
+- Best for: reasoning fine-tuning
+
+## 2) [simplescaling/s1](https://github.com/simplescaling/s1)
+- Conference: ICLR 2025 / EMNLP 2025
+- Why keep: compact repo for test-time scaling and reasoning
+- Best for: inference-time reasoning
+
+## 3) [Open-Reasoner-Zero/Open-Reasoner-Zero](https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero)
+- Project: open reasoning-RL
+- Why keep: strongest famous anchor repo in open reasoning
+- Best for: reasoning-RL training

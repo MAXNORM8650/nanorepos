@@ -9,7 +9,9 @@ Best minimal-ish repos to collect INCLUDES THESE AREAs
 	5.	RL for reasoning / decision-making
 	6.	Multimodal reasoning
 	7.	Generative vision / video / 3D
-  
+## LeJepaWORLD:
+https://github.com/lucas-maes/le-wm
+
 # LLM post-training / alignment 
 ## 1) [princeton-nlp/SimPO](https://github.com/princeton-nlp/SimPO)
 - **Paper:** *SimPO: Simple Preference Optimization with a Reference-Free Reward*
@@ -54,3 +56,56 @@ Paper: "Direct Preference Optimization: Your Language Model is Secretly a Reward
 - Venue signal: ICLR 2025 Poster
 - Why keep: strong recent training-side repo, more compact than framework-style PEFT repos
 - Best for: efficient training bucket
+
+# Agents (method papers, not product frameworks) — repos to collect
+
+> In this area, truly minimalist repos are rarer than in alignment.
+> So the right strategy is:
+> - **1 famous anchor repo**
+> - **1 best recent method repo**
+> - **1 smallest collectible repo**
+
+---
+
+## 1) [FoundationAgents/AFlow](https://github.com/FoundationAgents/AFlow)
+- **Paper:** *AFlow: Automating Agentic Workflow Generation*
+- **Venue:** **ICLR 2025 Oral**
+- **Why keep:** strongest **anchor repo** in this area
+- **What it does:** automatically searches and optimizes agent workflows instead of hand-designing them
+- **Why it matters:** oral at ICLR 2025, clearly high paper signal
+- **Repo style:** method/framework hybrid, not fully minimal
+- **Use it as:** the **best famous repo** for agent methods
+
+### Minimality verdict
+- not your pure `train.py + eval.py + README` style
+- still worth keeping because the paper signal is unusually strong
+
+---
+
+## 2) [tsinghua-fib-lab/AgentSquare](https://github.com/tsinghua-fib-lab/AgentSquare)
+- **Paper:** *AgentSquare: Automatic LLM Agent Search in Modular Design Space*
+- **Venue:** **ICLR 2025**
+- **Why keep:** best balance of **recent + agent-method focus + research code**
+- **What it does:** searches over modular agent designs with planning, reasoning, tool-use, and memory modules
+- **Why it matters:** directly about **agent design as a method problem**, not a product stack
+- **Repo style:** modular research repo with code, prompts, and results
+- **Use it as:** the **best recent method repo** in this area
+
+### Minimality verdict
+- not flat-minimal
+- but much closer to a paper repo than a full agent platform
+
+---
+
+## 3) [co-evolve-lab/magis](https://github.com/co-evolve-lab/magis)
+- **Paper:** *MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution*
+- **Venue:** **NeurIPS 2024**
+- **Why keep:** strongest **task-specific multi-agent method repo** I found that is still collectible
+- **What it does:** uses specialized agents for software issue resolution
+- **Why it matters:** NeurIPS 2024 paper, focused multi-agent design, narrower scope than general-purpose agent frameworks
+- **Repo style:** smaller and more task-bounded than AFlow
+- **Use it as:** the **smallest collectible repo** of the three
+
+### Minimality verdict
+- still not perfectly minimal
+- but more bounded and less framework-like than many agent repos

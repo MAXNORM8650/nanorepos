@@ -10,7 +10,7 @@ Best minimal-ish repos to collect INCLUDES THESE AREAs
 	6.	Multimodal reasoning
 	7.	Generative vision / video / 3D
 ## LeJepaWORLD:
-- [le-wm] (https://github.com/lucas-maes/le-wm)
+- [le-wm](https://github.com/lucas-maes/le-wm)
 
 # LLM post-training / alignment 
 ## 1) [princeton-nlp/SimPO](https://github.com/princeton-nlp/SimPO)
